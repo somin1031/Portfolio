@@ -43,8 +43,8 @@ p, h1{
 }
 
 .photo{
-    width: 100px;
-    heigth: 100px;
+    max-width: 120px;
+    max-heigth: 120px;
 }
 
 .menu{
