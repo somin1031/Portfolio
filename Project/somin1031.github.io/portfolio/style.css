@@ -45,6 +45,7 @@ p, h1{
 .photo{
     max-width: 100%;
     max-heigth: 100%;
+    padding: 0px 0px 0px 300px;
 }
 
 .menu{
