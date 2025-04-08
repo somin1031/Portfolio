@@ -42,12 +42,6 @@ p, h1{
     height: 95px;
 }
 
-.photo{
-    max-width: 200px;
-    max-heigth: 200px;
-    margin-right: 50px;
-}
-
 .menu{
     display:flex;
     gap: 100px;
@@ -137,11 +131,23 @@ p, h1{
     grid-template-columns: 1fr ;
     gap:64px;
 }
+.photo{
+    max-width: 200px;
+    max-heigth: 200px;
+    text-align: right;
+}
+
 .about{
-    display:grid;
+    display:flex;
     grid-template-columns: 1fr 1fr;
     gap:50px;
+    justify-content: flex-end;
 }
+
+.profilr{
+    padding-left: 20px;
+}
+
 .name{
     font-size:25px;
 }
